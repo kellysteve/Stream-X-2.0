@@ -1,0 +1,27 @@
+{
+  "name": "stream-x-movie-website",
+  "version": "2.0.0",
+  "description": "Stream X 2.0 - Movie Search and Discovery Website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "echo 'No build process needed'"
+  },
+  "keywords": ["movies", "streaming", "entertainment"],
+  "author": "Stream X Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "compression": "^1.7.4",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
